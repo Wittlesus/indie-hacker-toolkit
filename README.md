@@ -129,6 +129,19 @@ One-time purchase. No subscriptions. Yours forever.
 
 ---
 
+## More Developer Tools
+
+| Product | Description | Price |
+|---------|-------------|-------|
+| [LaunchFast SaaS Starter](https://github.com/Wittlesus/launchfast-starter) | Next.js 16 boilerplate with auth, payments, AI, email | $79 |
+| [PageBrain Extension](https://github.com/Wittlesus/pagebrain-extension) | Summarize any page with AI (Chrome) | Free |
+| [SEO Blog Engine](https://github.com/Wittlesus/seo-blog-engine) | CLI for generating SEO blog posts | $29 |
+| [PromptVault](https://github.com/Wittlesus/prompt-vault) | 64 production-ready AI prompts | $19 |
+| [CursorRules Pro](https://github.com/Wittlesus/cursorrules-pro) | .cursorrules for 8 popular stacks | $14 |
+| [Complete Bundle](https://buy.stripe.com/5kQeVceTj0P8enGe7U08g06) | All products above | $99 |
+
+---
+
 ## License
 
 These templates are for personal and commercial use. You may use them in your own business and modify them as you see fit. You may not resell or redistribute the templates themselves.
