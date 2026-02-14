@@ -4,6 +4,20 @@
 
 You've got the idea. You've got the skills to build it. But between shipping code, finding customers, tracking revenue, and creating content, things fall through the cracks. This toolkit gives you the systems so you can focus on what matters: building a product people want to pay for.
 
+## Pricing
+
+**$19 — One-time purchase. Not a subscription.**
+
+[**Buy Now**](https://buy.stripe.com/9B66oG26x55o0wQ5Bo08g03)
+
+What you get:
+- All 5 Notion-ready templates (Launch Checklist, Revenue Tracker, Content Calendar, Feedback System, Pricing Worksheet)
+- Markdown files with tables, checkboxes, and formatting preserved
+- Full customization guide for your specific needs
+- Lifetime updates and bonus templates as they're released
+
+**Save $119:** Get this + 6 other products in the [Complete Bundle for $99](https://buy.stripe.com/5kQeVceTj0P8enGe7U08g06)
+
 ---
 
 ## What's Inside
