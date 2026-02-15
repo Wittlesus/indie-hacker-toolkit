@@ -210,6 +210,9 @@ What you get:
 4. Duplicate the **Content Calendar** monthly
 5. The **Launch Checklist** and **Pricing Worksheet** are project-level -- duplicate per product
 6. The **Feedback System** is ongoing -- keep one running instance
+7. The **Acquisition Playbook** -- reference guide, pick 2-3 channels to start
+8. The **AI Tool Stack Guide** -- reference guide, bookmark for tool decisions
+9. The **Competitor Intelligence System** -- initial audit (8-10 hrs), then quarterly reviews (2-3 hrs)
 
 ### Customization
 
