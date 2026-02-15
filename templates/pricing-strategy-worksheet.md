@@ -4,6 +4,19 @@
 
 ---
 
+## How This Worksheet Works (Read This First)
+
+This worksheet is based on proven pricing frameworks used by successful SaaS companies:
+- **Van Westendorp Price Sensitivity Meter** - Survey-based pricing discovery
+- **Value-Based Pricing** - Price based on customer value, not costs
+- **Competitive Positioning Matrix** - Where you fit in the market landscape
+
+You'll find worked examples, decision frameworks, and common mistakes throughout. This isn't just a blank form - it's a structured methodology.
+
+**Expected time:** 3-4 hours to complete thoroughly. Do it in one sitting if possible.
+
+---
+
 ## Part 1: Competitor Analysis
 
 Research 5-8 competitors or alternatives in your space. Include direct competitors, indirect competitors, and the "do nothing" alternative.
@@ -67,7 +80,7 @@ Rate each potential value metric on a scale of 1-5:
 
 ### The "10x Value" Test
 
-Your price should be less than or equal to 1/10th of the value you deliver.
+Your price should be less than or equal to 1/10th of the value you deliver. This is the golden rule of value-based pricing.
 
 **What value does your product deliver?**
 
@@ -79,6 +92,52 @@ Your price should be less than or equal to 1/10th of the value you deliver.
 | Risk avoided | $ _____ | Cost of the problem if unresolved |
 | **Total value delivered** | **$ _____** | |
 | **Max reasonable price (value / 10)** | **$ _____** | |
+
+### Worked Example: Email Marketing Automation Tool
+
+| Value Type | Estimated Value per Month | How to Quantify |
+|---|---|---|
+| Time saved | $800 | Saves 10 hrs/mo on manual email work. Founder's time worth $80/hr. |
+| Revenue generated | $2,000 | Automated abandoned cart emails recover ~$2k/mo in sales |
+| Cost reduced | $300 | Replaces a $300/mo email tool + manual labor |
+| Risk avoided | $500 | Prevents revenue loss from forgotten follow-ups |
+| **Total value delivered** | **$3,600** | |
+| **Max reasonable price (value / 10)** | **$360/mo** | But we price at $99/mo to be obviously good value |
+
+**Key Insight:** If your product delivers $3,600/mo in value, you could charge $360/mo and still be "10x value." But pricing at $99/mo makes the ROI irresistible (36x value), which accelerates conversions and reduces sales friction.
+
+---
+
+## Part 2.5: Van Westendorp Price Sensitivity Analysis
+
+Before setting your price, survey 20-50 potential customers with these 4 questions:
+
+1. At what price would this product be **so expensive** that you would not consider buying it? (Too expensive)
+2. At what price would you consider this product **expensive**, but still worth considering? (Expensive)
+3. At what price would you consider this product a **bargain** - a great buy for the money? (Bargain)
+4. At what price would this product be **so cheap** that you'd question its quality? (Too cheap)
+
+### How to Analyze Van Westendorp Results
+
+**Step 1:** Plot responses on a chart (or use a Google Sheet). Find these intersections:
+- **Point of Marginal Cheapness (PMC):** Where "Too Cheap" and "Expensive" lines cross
+- **Point of Marginal Expensiveness (PME):** Where "Too Expensive" and "Bargain" lines cross
+- **Indifference Price Point (IPP):** Where "Expensive" and "Bargain" lines cross
+- **Optimal Price Point (OPP):** Where "Too Cheap" and "Too Expensive" lines cross
+
+**Step 2:** Your acceptable price range is between PMC and PME. Your optimal price is near IPP or OPP.
+
+### Simplified Example Results (20 respondents)
+
+Responses clustered around:
+- Too Cheap: $5-15
+- Bargain: $20-35
+- Expensive: $40-60
+- Too Expensive: $70-100
+
+**Analysis:** Acceptable range is $15-$70. Optimal price is likely $29-$49. Test $39 as your anchor.
+
+**Common Mistake:** Asking "What would you pay?" instead of the Van Westendorp questions. People lowball when asked directly. The 4-question method reveals their true willingness to pay.
 
 ---
 
@@ -242,4 +301,148 @@ Track your pricing changes and their impact over time.
 
 ---
 
-> **Tip:** Most indie hackers underprice. If nobody complains about your pricing, you're probably too cheap. Raise prices for new customers, grandfather existing customers, and measure the impact. You can always lower prices -- but raising them later is harder.
+## Part 7: Price Elasticity Testing Guide
+
+Price elasticity measures how demand changes when you change price. Most indie hackers guess. Do this instead:
+
+### The A/B Test Approach
+
+**Test:** Show 50% of new visitors pricing at $39/mo, 50% at $49/mo. Run for 2-4 weeks or 200+ visitors per variant.
+
+**Measure:**
+- Conversion rate to paid at each price
+- Total revenue per 100 visitors at each price
+- Customer LTV at each price (do higher-paying customers churn less?)
+
+### Worked Example: $39 vs. $49 Test
+
+| Metric | $39/mo Variant | $49/mo Variant | Winner |
+|---|---|---|---|
+| Visitors | 500 | 500 | -- |
+| Trial sign-ups | 75 (15%) | 70 (14%) | $39 (slightly) |
+| Trial-to-paid | 23 (30.7%) | 19 (27.1%) | $39 |
+| Paying customers | 23 | 19 | $39 |
+| Monthly revenue | $897 | $931 | **$49** |
+| Revenue per 100 visitors | $179 | $186 | **$49** |
+
+**Decision:** Despite lower conversion, $49 generates more revenue per visitor. Go with $49. Monitor churn - if $49 customers churn faster, the model breaks.
+
+**Common Mistake:** Testing for only 50 conversions total. You need statistical significance - aim for 200+ visitors per variant minimum.
+
+---
+
+## Part 8: Competitive Positioning Matrix
+
+Map yourself against competitors on two axes: Price (low to high) and Features (basic to advanced).
+
+### Example Matrix for Project Management Tools
+
+```
+Advanced Features
+        ↑
+        |  [Asana Business]    [Monday Enterprise]
+        |        $25/user            $50/user
+        |
+        |  [Trello Premium]    [Notion Plus]
+        |        $10/user          $15/user
+        |
+        |  [YOU: SimpleTask]   [ClickUp]
+Low ←---|        $8/user          $12/user        →  High
+Price   |
+        |  [Trello Free]
+        |      $0
+        ↓
+    Basic Features
+```
+
+**Your Strategic Position:** Lower-left (affordable + simple) targets solo founders overwhelmed by complex tools. You compete on simplicity and price, not features.
+
+**Positioning Statement Template:**
+"For [target customer] who are frustrated by [competitor weakness], [your product] is a [category] that [unique value]. Unlike [competitor], we [key differentiator]."
+
+**Example:**
+"For solo founders who are overwhelmed by Asana's complexity, SimpleTask is a project manager that gets out of your way. Unlike Asana, we have zero learning curve and cost 1/3 the price."
+
+---
+
+## Part 9: Common Pricing Mistakes (And How to Avoid Them)
+
+### Mistake 1: Pricing Too Low Out of Fear
+**Why it happens:** "Nobody will pay more than $9/mo for this."
+**Reality:** Willingness to pay correlates with target customer. B2B buyers think $9/mo means "toy." Try $29-49.
+**Fix:** Run Van Westendorp survey. Test higher prices on 50% of traffic.
+
+### Mistake 2: Competing on Price
+**Why it happens:** Competitor charges $99, so you charge $79 to undercut them.
+**Reality:** Price wars are a race to zero. You can't out-cheap a VC-funded competitor.
+**Fix:** Compete on positioning, niche, or differentiation. Charge the same or more, and explain why you're worth it.
+
+### Mistake 3: Flat Pricing (No Tiers)
+**Why it happens:** "I don't want to confuse people with options."
+**Reality:** One price = leaving money on table. Some users would pay 3x for more features.
+**Fix:** Offer 3 tiers. Capture budget-conscious users at $X and power users at $3X.
+
+### Mistake 4: Charging Per-User for a Collaborative Tool
+**Why it happens:** "That's what Slack does."
+**Reality:** Per-user pricing penalizes adoption. Users won't invite teammates if it costs more.
+**Fix:** Use flat-rate or per-workspace pricing for collaborative tools. Per-user works for individual-value tools (CRM, analytics).
+
+### Mistake 5: Not Anchoring with a High Tier
+**Why it happens:** Your tiers are $10, $20, $30.
+**Reality:** Without an expensive anchor, $30 feels expensive. Add a $99 tier (even if few buy it).
+**Fix:** Create a 4th tier at 3-5x your mid-tier price. It makes the mid-tier feel like a bargain.
+
+### Mistake 6: Offering a Forever-Free Tier Too Early
+**Why it happens:** "Freemium works for Slack and Notion."
+**Reality:** Freemium needs massive scale and strong virality. For indie hackers, free users cost money (support, infrastructure) and rarely convert.
+**Fix:** Start with a 14-day free trial, no credit card. Add freemium only after you hit $10k MRR and have proven paid conversion.
+
+### Mistake 7: Annual Discounts Too Steep
+**Why it happens:** "I'll offer 50% off annual to get cash flow."
+**Reality:** 50% off trains customers to wait for deals. You devalue your product.
+**Fix:** 15-20% annual discount is standard. Max 25%. Anything more signals desperation.
+
+### Mistake 8: Grandfathering Old Prices Forever
+**Why it happens:** "I don't want to upset early customers."
+**Reality:** If you underpriced at $9 and now charge $29, you're subsidizing old customers forever.
+**Fix:** Grandfather for 12 months, then migrate to new pricing with 60-day notice. Offer a loyalty discount (e.g., $24 instead of $29).
+
+### Mistake 9: Not Raising Prices Annually
+**Why it happens:** Fear of churn.
+**Reality:** Costs rise (hosting, tools, your time). Static pricing = shrinking margins.
+**Fix:** Raise prices 5-10% annually for new customers. Grandfather existing customers or give 90-day notice.
+
+### Mistake 10: Pricing Based on Costs
+**Why it happens:** "It costs me $3/user in infrastructure, so I'll charge $9."
+**Reality:** Customers don't care about your costs. They care about value.
+**Fix:** Price based on value delivered (10x rule). If your costs are too high relative to value, optimize costs or pivot.
+
+---
+
+## Part 10: Pricing Decision Framework (Use This When Stuck)
+
+When you're unsure between two prices, use this decision tree:
+
+**Question 1:** Do I have >50 customers already?
+- **No** → Pick the higher price. Early customers are less price-sensitive. You can always lower it.
+- **Yes** → Run an A/B test on new visitors.
+
+**Question 2:** Is my market price-sensitive (consumers, small businesses) or value-focused (enterprises, agencies)?
+- **Price-sensitive** → Match or slightly undercut market leader. Compete on features/UX.
+- **Value-focused** → Price 20-30% above market leader. Compete on quality, outcomes, premium positioning.
+
+**Question 3:** Do I have strong differentiation (unique features, niche focus, brand)?
+- **Yes** → Charge a premium (20-50% above competitors).
+- **No** → Match competitors. Differentiate first, then raise prices.
+
+**Question 4:** Am I bootstrapped or VC-funded?
+- **Bootstrapped** → Optimize for profitability. Charge enough to be profitable at 100 customers.
+- **VC-funded** → Optimize for growth. Lower prices to maximize adoption, raise prices later at scale.
+
+**Question 5:** Do I have pricing leverage (network effects, lock-in, high switching costs)?
+- **Yes** → You can raise prices on existing customers with low churn risk.
+- **No** → Grandfather existing customers when raising prices. Only charge new customers more.
+
+---
+
+> **Final Tip:** Most indie hackers underprice by 30-50%. If nobody complains about your pricing, you're too cheap. A good rule of thumb: 10-15% of prospects should say "that's expensive" when they see your price. If 0% say that, double your price and test again. Pricing is the fastest lever to grow revenue - a 20% price increase is a 20% revenue increase with zero extra work.
